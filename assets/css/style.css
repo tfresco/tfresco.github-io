@@ -18,9 +18,15 @@ header img { max-height: 54px !important; }
 
 .fifth-row .card-text { min-height: 120px; }
 
+.fifth-extra-row .card-title { min-height: 53px; }
+
+.fifth-extra-row .card-text { min-height: 145px; }
+
 .sixth-row .card-text { min-height: 120px; }
 
 .seventh-row .card-text { min-height: 100px; }
+
+.eigth-row .card-title { min-height: 53px; }
 
 .eigth-row .card-text { min-height: 100px; }
 
