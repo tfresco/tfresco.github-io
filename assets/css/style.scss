@@ -1,0 +1,96 @@
+header {
+    padding: 8px;
+
+    img {
+        max-height: 54px !important;
+    }
+}
+
+.btn {
+    &.btn-square {
+        border-radius: 0;
+    }
+}
+
+.card {
+    &.card-square {
+        border-radius: 0;
+    }
+}
+
+.first-row .card-text {
+    min-height: 120px;
+}
+
+.second-row .card-title {
+    min-height: 80px;
+}
+
+.third-row .card-text {
+    min-height: 145px;
+}
+
+.fourth-row .card-text {
+    min-height: 120px;
+}
+
+.fifth-row {
+    .card-title {
+        min-height: 53px;
+    }
+
+    .card-text {
+        min-height: 120px;
+    }
+}
+
+.sixth-row {
+    .card-text {
+        min-height: 120px;
+    }
+}
+
+.seventh-row .card-text {
+    min-height: 100px;
+}
+
+.eigth-row .card-text {
+    min-height: 100px;
+}
+
+.content {
+    padding: 50px 0 30px;
+}
+
+.card-empty {
+    border: 0;
+}
+
+.modal-content {
+    border-radius: 0;
+}
+
+.card-deck {
+    margin-bottom: 1.5rem;
+}
+
+.owl-theme .owl-nav [class*=owl-] {
+    margin: 8px 14px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    background: #0275d8;
+    border-radius: 0;
+
+    &:hover {
+        background-color: #025aa5;
+    }
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #0275d8;
+}
+
+footer {
+    height: 40px;
+}
