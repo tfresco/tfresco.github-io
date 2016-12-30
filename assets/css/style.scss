@@ -1,5 +1,25 @@
+$motovan-blue: #00aeef;
+$motovan-border: darken($motovan-blue, 3%);
+$motovan-hover: darken($motovan-blue, 8%);
+
+$black:  #1b1b1b;
+
 .content {
     padding: 50px 0 30px;
+}
+
+.bg-inverse {
+    background-color: $black !important;
+}
+
+.btn-primary {
+    background-color: $motovan-blue;
+    border-color: $motovan-border;
+
+    &:hover, &:focus, &:active, &:visited {
+      background-color: $motovan-hover;
+      border-color: $motovan-hover;
+    }
 }
 
 .card-empty {
@@ -14,17 +34,17 @@
     margin: 8px 14px;
     padding: 5px 10px;
     text-transform: uppercase;
-    background: #0275d8;
+    background: $motovan-blue;
     border-radius: 0;
 
     &:hover {
-        background-color: #025aa5;
+        background-color: $motovan-hover;
     }
 }
 
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
-    background: #0275d8;
+    background: $motovan-blue;
 }
 
 footer {

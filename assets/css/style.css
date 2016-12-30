@@ -1,14 +1,20 @@
 .content { padding: 50px 0 30px; }
 
+.bg-inverse { background-color: #1b1b1b !important; }
+
+.btn-primary { background-color: #00aeef; border-color: #00a3e0; }
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary:visited { background-color: #0090c6; border-color: #0090c6; }
+
 .card-empty { border: 0; }
 
 .modal-content { border-radius: 0; }
 
-.owl-theme .owl-nav [class*=owl-] { margin: 8px 14px; padding: 5px 10px; text-transform: uppercase; background: #0275d8; border-radius: 0; }
+.owl-theme .owl-nav [class*=owl-] { margin: 8px 14px; padding: 5px 10px; text-transform: uppercase; background: #00aeef; border-radius: 0; }
 
-.owl-theme .owl-nav [class*=owl-]:hover { background-color: #025aa5; }
+.owl-theme .owl-nav [class*=owl-]:hover { background-color: #0090c6; }
 
-.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span { background: #0275d8; }
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span { background: #00aeef; }
 
 footer { height: 40px; }
 
