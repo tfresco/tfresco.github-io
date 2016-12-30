@@ -5,7 +5,23 @@ $motovan-hover: darken($motovan-blue, 8%);
 $black:  #1b1b1b;
 
 .content {
-    padding: 50px 0 30px;
+    padding: 120px 0 30px;
+}
+
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 50px;
+    right: 15px;
+    border-radius: 100%;
+    padding: 16px;
+    display:none;
+    height: 60px;
+    width: 60px;
+    .fa {
+      height: 25px;
+      width: 25px;
+    }
 }
 
 .bg-inverse {

@@ -1,4 +1,8 @@
-.content { padding: 50px 0 30px; }
+.content { padding: 120px 0 30px; }
+
+.back-to-top { cursor: pointer; position: fixed; bottom: 50px; right: 15px; border-radius: 100%; padding: 16px; display: none; height: 60px; width: 60px; }
+
+.back-to-top .fa { height: 25px; width: 25px; }
 
 .bg-inverse { background-color: #1b1b1b !important; }
 
