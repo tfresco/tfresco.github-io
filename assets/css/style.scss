@@ -8,6 +8,10 @@ $black:  #1b1b1b;
     padding: 120px 0 30px;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 .back-to-top {
     cursor: pointer;
     position: fixed;
@@ -22,6 +26,14 @@ $black:  #1b1b1b;
       height: 25px;
       width: 25px;
     }
+}
+
+.flex-row {
+  display: flex;
+  justify-content: space-around;
+  img {
+    height: 48px;
+  }
 }
 
 .bg-inverse {
@@ -86,6 +98,43 @@ header {
         border-radius: 0;
     }
 }
+
+
+/* 5 Columns */
+
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+@media (min-width: 768px) {
+    .col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
 @media (min-width: 600px) and (max-width: 1100px) {
     .card-deck {
         margin-bottom: 1.5rem;
